@@ -29,19 +29,19 @@
 ## User Story 2: As an Admin, I want to enter new transactions so that I can keep track of the company's financial activities.
 ### Acceptance Criteria:
 - Ability to enter the following fields:
-  -- Amount
-  -- Payer
-  -- Due on
-  -- VAT
-  -- is VAT inclusive
+  - Amount
+  - Payer
+  - Due on
+  - VAT
+  - is VAT inclusive
 - The status of the transaction is set automatically based on the current date and due date.
 - The status can be one of the following:
-  -- Paid: When the transaction is fully paid
-  -- Outstanding: When the transaction is not fully paid and part and due on date has not passed today’s date
-  -- Overdue The transaction is overdue if it is not fully paid and the due date has passed today’s day
+  - Paid: When the transaction is fully paid
+  - Outstanding: When the transaction is not fully paid and part and due on date has not passed today’s date
+  - Overdue The transaction is overdue if it is not fully paid and the due date has passed today’s day
 - The transaction status depends on two factors:
-  -- The time of storing/viewing the transaction
-  -- The total paid amount (when it is paid is not important)
+  - The time of storing/viewing the transaction
+  - The total paid amount (when it is paid is not important)
 
 ## User Story 3: As an Admin, I want to record payments against transactions so that we can keep the transaction status updated.
 
